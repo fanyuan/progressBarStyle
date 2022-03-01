@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  设置背景图像资源  -->
+    <item
+        android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dp"/>
+            <solid android:color="#ffff00"/>
+        </shape>
+    </item>
+
+    <!--  设置进度条图像资源  -->
+    <item
+        android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp"/>
+                <solid android:color="#ff00ff"/>
+            </shape>
+        </clip>
+    </item>
+
+
+</layer-list>

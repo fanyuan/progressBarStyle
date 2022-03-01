@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  设置背景图像资源
+    android:drawable="@drawable/img_arrar_black"-->
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/shape_rect_radiu_7_ff5a595b"/>
+
+    <!--  设置进度条图像资源
+          <bitmap android:src="@drawable/img_arrar_yellow"-->
+    <item
+        android:id="@android:id/progress">
+        <clip>
+            <bitmap android:src="@drawable/img_arrar_yellow"/>
+        </clip>
+    </item>
+
+</layer-list>
