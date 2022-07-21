@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  设置背景图像资源
+          android:drawable="@drawable/shape_rect_radiu_7_ff5a595b"
+          -->
+    <item
+        android:id="@android:id/background"
+        >
+        <shape>
+            <corners android:radius="7dp"/>
+            <gradient
+                android:startColor="@android:color/transparent"
+                android:endColor="#80000000"/>
+        </shape>
+    </item>
+
+    <!--  设置进度条图像资源  -->
+    <item
+        android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp"/>
+                <gradient
+                    android:startColor="@android:color/transparent"
+                    android:endColor="#00ff00"
+                    android:centerX="0.8"/>
+            </shape>
+        </clip>
+    </item>
+
+
+</layer-list>
