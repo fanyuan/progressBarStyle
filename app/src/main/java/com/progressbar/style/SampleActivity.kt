@@ -17,6 +17,23 @@ class SampleActivity : AppCompatActivity() {
     fun click(view: View) {
         updateProgress(binding.progress)
     }
+
+    fun click2(view: View) {
+        updateProgress(binding.progress2)
+    }
+
+    fun click3(view: View) {
+        updateProgress(binding.progress3)
+    }
+
+    fun click5(view: View) {
+        updateProgress(binding.progress5)
+    }
+
+    fun click6(view: View) {
+        updateProgress(binding.progress6)
+    }
+
     fun click9Patch(view: View) {
         updateProgress(binding.progress9Patch)
     }
